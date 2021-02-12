@@ -1,0 +1,21 @@
+body {
+    font-family: 'Spartan', sans-serif;
+    color: #003adb;
+    background-color: #ffa600;
+}
+
+#main_title {
+    font-size: 5em;
+    line-height: 8rem;
+    text-align: left;
+    text-justify: inter-character;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+#tag_line {
+    text-align: center;
+}
