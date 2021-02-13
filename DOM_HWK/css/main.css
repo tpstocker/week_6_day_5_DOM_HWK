@@ -47,7 +47,8 @@ input[type="text"] {
     height: 2rem;
     border-radius: 8px;
     background-color: #ffa600;
-    border-color: #003adb;
+    border-style: solid;
+    border-color: #ff00c3;
     border-width: thin;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -71,7 +72,8 @@ select[name="releaseDate"] {
     border-radius: 8px;
     border-width: thin;
     background-color: #ffa600;
-    border-color: #003adb;
+    border-style: solid;
+    border-color: #ff00c3;
     padding-left: 0.5rem;
 }
 
@@ -101,7 +103,8 @@ button, input[type="submit"] {
     color: #003adb;
     border-radius: 8px;
     background-color: #ffa600;
-    border-color: #003adb;
+    border-style: solid;
+    border-color: #ff00c3;
 }
 
 input[type="submit"]:hover {
@@ -129,4 +132,17 @@ button:focus {
 
 button:focus-visible{
     outline: 3px solid whitesmoke;
+}
+
+#game-list {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.game-list-item {
+    border-style: dotted;
+    border-radius: 8px;
+    border-color: #ff00c3;
+    padding: 1rem;
+    margin: 2rem;
 }
