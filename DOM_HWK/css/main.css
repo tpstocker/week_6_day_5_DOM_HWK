@@ -19,3 +19,114 @@ ul {
 #tag_line {
     text-align: center;
 }
+
+#form-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+}
+
+.form-item label {
+    text-align: center;
+}
+
+.primary {
+    margin: 1rem;
+}
+
+input[type="text"] {
+    font-family: 'Spartan', sans-serif;
+    color: #003adb;
+    height: 2rem;
+    border-radius: 8px;
+    background-color: #ffa600;
+    border-color: #003adb;
+    border-width: thin;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+input[type="text"]:hover {
+    background-color: #ffae00;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    background-color: #ffae00;
+}
+
+
+select[name="releaseDate"] {
+    font-family: 'Spartan', sans-serif;
+    color: #003adb;
+    height: 2.3rem;
+    border-radius: 8px;
+    border-width: thin;
+    background-color: #ffa600;
+    border-color: #003adb;
+    padding-left: 0.5rem;
+}
+
+
+select[name="releaseDate"]:hover {
+    background-color: #ffae00;
+}
+
+select[name="releaseDate"]:focus {
+    outline: none;
+    background-color: #ffae00;
+}
+
+
+
+#buttons {
+    display: flex;
+    justify-content:center;
+}
+
+button, input[type="submit"] {
+    margin: 1rem;
+    width: 8rem;
+    height: 3rem;
+    font-family: 'Spartan', sans-serif;
+    font-size: larger;
+    color: #003adb;
+    border-radius: 8px;
+    background-color: #ffa600;
+    border-color: #003adb;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffae00;
+}
+
+input[type="submit"]:focus {
+    outline: none;
+    background-color: #ffa600;
+}
+
+input[type="submit"]:focus-visible{
+    outline: 3px solid whitesmoke;
+}
+
+
+button:hover {
+    background-color: #ffae00;
+}
+
+button:focus {
+    outline: none;
+    background-color: #ffa600;
+}
+
+button:focus-visible{
+    outline: 3px solid whitesmoke;
+}
