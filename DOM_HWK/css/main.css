@@ -4,20 +4,23 @@ body {
     background-color: #ffa600;
 }
 
-#main_title {
-    font-size: 5em;
-    line-height: 8rem;
-    text-align: left;
-    text-justify: inter-character;
-
+#main-title {
+    font-size: 4em;
+    text-align: center;
+    letter-spacing: 1rem;
+    line-height: 5rem;
 }
 
 ul {
     list-style-type: none;
 }
 
-#tag_line {
+#tag-line {
+    color: #ff00c3;
     text-align: center;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    line-height: 2rem;;
 }
 
 #form-wrapper {
@@ -100,20 +103,22 @@ button, input[type="submit"] {
     height: 3rem;
     font-family: 'Spartan', sans-serif;
     font-size: larger;
-    color: #003adb;
+    color: #ffa600;
     border-radius: 8px;
-    background-color: #ffa600;
+    background-color: #003adb;
     border-style: solid;
     border-color: #ff00c3;
 }
 
 input[type="submit"]:hover {
     background-color: #ffae00;
+    color: #003adb;
 }
 
 input[type="submit"]:focus {
     outline: none;
-    background-color: #ffa600;
+    background-color: #003adb;
+    color: #ffa600;
 }
 
 input[type="submit"]:focus-visible{
@@ -123,11 +128,13 @@ input[type="submit"]:focus-visible{
 
 button:hover {
     background-color: #ffae00;
+    color: #003adb;
 }
 
 button:focus {
     outline: none;
-    background-color: #ffa600;
+    background-color: #003adb;
+    color: #ffa600;
 }
 
 button:focus-visible{
@@ -140,7 +147,8 @@ button:focus-visible{
 }
 
 .game-list-item {
-    border-style: dotted;
+    border-style: solid;
+    border-width: thin;
     border-radius: 8px;
     border-color: #ff00c3;
     padding: 1rem;
